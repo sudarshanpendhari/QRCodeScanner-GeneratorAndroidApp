@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#304180"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/jayho" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_logo"
+        android:id="@+id/text_main"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to QR code Scanner &amp;\n Generator "
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="4dp"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/text_main"
+        android:id="@+id/BtnGenerator"
+        android:text="Generate QR Code "
+        android:textAllCaps="false"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/BtnGenerator"
+        android:id="@+id/BtnScanner"
+        android:text="Scan QR Code "
+        android:textAllCaps="false"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
